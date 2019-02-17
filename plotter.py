@@ -1,9 +1,7 @@
 import matplotlib.pyplot as plt
 
 
-def draw_classes(classified_data, title, figure_number):
-    colors = ['orange', 'blue']
-
+def draw_classes(classified_data, title, figure_number, colors):
     plt.figure(figure_number)
 
     for vector, label in classified_data:
